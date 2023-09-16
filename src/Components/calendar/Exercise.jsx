@@ -36,7 +36,9 @@ const ExerciseBox = ({ exercise }) => {
       {...listeners}
       className="exercise mt-8"
     >
-      <div className="title exercise-title truncate">{exercise.title}</div>
+      <div className="title exercise-title truncate size-10">
+        {exercise.title}
+      </div>
       {exercise?.workouts?.map((workOut, index) => (
         <WorkOut item={workOut} key={index} />
       ))}
