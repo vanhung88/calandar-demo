@@ -2,7 +2,7 @@ import { getThisWeekDates, formatDate } from "../utils/tool";
 const dayList = getThisWeekDates();
 
 export const exerciseItem = {
-  title: "CHEST DAY -  WITH ARM",
+  title: "Bench Press Medium Grip",
   quantity: "3x",
   description: "50 ib x5, 60n ibx90, 70kax90i",
 };
@@ -20,7 +20,7 @@ export const calendarInWeek = [
     exercises: [
       {
         title: "Chest day -  with arm exercise",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
     ],
   },
@@ -31,11 +31,11 @@ export const calendarInWeek = [
     exercises: [
       {
         title: "CHEST DAY -  WITH ARM",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
       {
         title: "CHEST DAY -  WITH ARM",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
     ],
   },
