@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 16px;
+
+  .item {
+    flex: 1;
+    width: 12%;
+  }
+
+  .box-item {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f6f7f9;
+    height: calc(95vh - 48px);
+    margin-top: 8px;
+  }
+
+  .title {
+    color: #6a7988;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .exercise {
+    border-radius: 6px;
+    background-color: #ffffff80;
+    border: 1px solid #22242615;
+    height: fit-content;
+    padding: 4px;
+  }
+
+  .title-color {
+    color: #5a57cb;
+  }
+
+  .exercise-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .work-out {
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    border: 1px solid #22242610;
+    height: fit-content;
+    width: 80%;
+  }
+}
