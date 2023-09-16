@@ -20,7 +20,7 @@ export const calendarInWeek = [
     exercises: [
       {
         title: "Chest day -  with arm exercise",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
     ],
   },
@@ -31,11 +31,11 @@ export const calendarInWeek = [
     exercises: [
       {
         title: "CHEST DAY -  WITH ARM",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
       {
         title: "CHEST DAY -  WITH ARM",
-        item: [exerciseItem, exerciseItem],
+        workouts: [exerciseItem, exerciseItem],
       },
     ],
   },
