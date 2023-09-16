@@ -4,7 +4,7 @@ export function WorkOut({ item }) {
       <div className="truncate text-right ml-30">{item.title}</div>
       <div className="flex justify-between w-full color mt-8">
         <span>{item.quantity}</span>
-        <span className="truncate w-80">{item.description}</span>
+        <span className="truncate w-80 text-right">{item.description}</span>
       </div>
     </div>
   );

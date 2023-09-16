@@ -1,6 +1,8 @@
 import "./style.css";
 import { calendarInWeek } from "../../mocks/calendarInWeek.js";
 import { Exercise } from "./Exercise";
+import classNames from "classnames";
+import dayjs from "dayjs";
 
 export default function Calendar() {
   return (
@@ -9,8 +11,13 @@ export default function Calendar() {
         <div className="item" key={item.id}>
           <div className="title">{item.title}</div>
           <div className="box-item">
-            <div className="title">{item.date}</div>
-
+            <div
+              className={classNames("title", {
+                ["exercise-title"]: dayjs().format("DD") === item.date,
+              })}
+            >
+              {item.date}
+            </div>
             {item.exercises && <Exercise item={item.exercises} />}
           </div>
         </div>

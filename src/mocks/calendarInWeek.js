@@ -20,7 +20,18 @@ export const calendarInWeek = [
     exercises: [
       {
         title: "Chest day -  with arm exercise",
-        workouts: [exerciseItem, exerciseItem],
+        workouts: [
+          {
+            title: "Bench Press Medium Grip",
+            quantity: "3x",
+            description: "50 lb x 5, 60 lb x 5, 70 lb x 5",
+          },
+          {
+            title: "Exercise B",
+            quantity: "1x",
+            description: "40 lb x 10",
+          },
+        ],
       },
     ],
   },
@@ -30,11 +41,11 @@ export const calendarInWeek = [
     date: dayList[2]?.split("-")?.[2],
     exercises: [
       {
-        title: "CHEST DAY -  WITH ARM",
+        title: "Leg DaY",
         workouts: [exerciseItem, exerciseItem],
       },
       {
-        title: "CHEST DAY -  WITH ARM",
+        title: "Arm day",
         workouts: [exerciseItem, exerciseItem],
       },
     ],
