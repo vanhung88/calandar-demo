@@ -1,6 +1,6 @@
-import "./style.css";
-import { calendarInWeek } from "../../mocks/calendarInWeek.js";
-import { Exercise } from "./Exercise";
+import './style.css';
+import { calendarInWeek } from '../../mocks/calendarInWeek.js';
+import { Exercise } from './Exercise';
 
 export default function Calendar() {
   return (
@@ -10,7 +10,6 @@ export default function Calendar() {
           <div className="title">{item.title}</div>
           <div className="box-item">
             <div className="title">{item.date}</div>
-
             {item.exercises && <Exercise item={item.exercises} />}
           </div>
         </div>
