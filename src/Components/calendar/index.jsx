@@ -18,7 +18,7 @@ export default function Calendar() {
             >
               {item.date}
             </div>
-            {item.exercises && <Exercise item={item.exercises} />}
+            {item.exercises && <Exercise exercises={item.exercises} />}
           </div>
         </div>
       ))}
